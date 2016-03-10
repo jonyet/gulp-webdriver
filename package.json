@@ -1,6 +1,6 @@
 {
   "name": "gulp-webdriver",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "gulp-webdriver is a gulp plugin to run selenium tests with the WebdriverIO testrunner",
   "main": "index.js",
   "repository": {
@@ -35,10 +35,27 @@
     "through2": "^0.6.5",
     "deepmerge": "^0.2.7",
     "dargs": "christian-bromann/dargs",
-    "webdriverio": "^3.4.0"
+    "webdriverio": "^4.0.3",
+    "babel-runtime": "^5.8.25"
   },
   "devDependencies": {
     "gulp": "^3.8.11",
-    "mocha": "^2.3.0"
+    "mocha": "^2.3.0",
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-eslint": "^4.1.7",
+    "babel-plugin-rewire": "^0.1.22",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.1",
+    "grunt-bump": "^0.6.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-env": "^0.4.4",
+    "grunt-eslint": "^17.1.0",
+    "grunt-mocha-istanbul": "^3.0.1",
+    "grunt-npm": "0.0.2",
+    "isparta": "^3.5.3",
+    "load-grunt-tasks": "^3.2.0"
   }
 }
